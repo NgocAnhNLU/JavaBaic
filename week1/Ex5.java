@@ -14,7 +14,7 @@ public class Ex5 {
 		minute=second/60;
 		second-=minute*60;
 		System.out.printf("%dh:%d':%d\"",hour,minute,second);
-		System.out.printf("%dh:%d':%d\"",hour,minute,second);
+//		System.out.printf("%dh:%d':%d\"",hour,minute,second);
 		
 	}
 
