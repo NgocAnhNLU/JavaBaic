@@ -1,4 +1,4 @@
-package DeoGitHub;
+package demoGitHub;
 
 import java.util.Scanner;
 
