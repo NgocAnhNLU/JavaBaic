@@ -14,10 +14,7 @@ public class Ex5 {
 		minute=second/60;
 		second-=minute*60;
 		System.out.printf("%d:%d':%d\"",hour,minute,second);
-=======
-//		System.out.printf("%dh:%d':%d\"",hour,minute,second);
->>>>>>> 778dcae03cddb688bd02b9f3b4f94d8da40745e6
-		
-	}
 
+
+}
 }
