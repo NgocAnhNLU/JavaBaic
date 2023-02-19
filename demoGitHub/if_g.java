@@ -8,9 +8,9 @@ public class if_g {
         System.out.print("Input a number: ");
         int num= input.nextInt();
         if (num%2==0) {
-            System.out.printf("number %d is Even "num);
+            System.out.printf("number %d is Even \n",num);
         }
         else
-            System.out.printf("number %d is Odd",num);
+            System.out.printf("number %d is Odd\n",num);
     }
 }

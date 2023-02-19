@@ -15,9 +15,9 @@ public class SwitchCaseJava_a {
             case 5: System.out.println("Friday");break;
             case 6: System.out.println("Saturday");break;
             case 7: System.out.println("Sunday");break;
-            default{
-                System.out.println("khong co ngay"+dayOfWeek);
-        }
+            default:
+                System.out.println("khong co ngay: "+dayOfWeek);
+                break;
     }
     }
 }
