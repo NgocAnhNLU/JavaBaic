@@ -21,12 +21,13 @@ public class SwitchCaseJava_c {
 			System.out.print("Weekend");
 			break;
 
-		default: System.out.println("it not a day of week");
+		default:
+			System.out.println("it not a day of week");
 			break;
 		}
-	Date date = null ;
-	System.out.println("ngay");
-	date.day=input.nextInt();
+		Date date = null;
+		System.out.println("ngay");
+		date.day = input.nextInt();
 	}
 
 }

@@ -7,11 +7,17 @@ public class SwitchCaseJava_d {
 		int language;
 		Scanner input = new Scanner(System.in);
 		System.out.print("input a number(1-3): ");
-		language =input.nextInt();
+		language = input.nextInt();
 		switch (language) {
-		case 1:System.out.println("English"); break; 
-		case 2: System.err.println("French"); break;
-		case 3: System.out.println("Spanish"); break;
+		case 1:
+			System.out.println("English");
+			break;
+		case 2:
+			System.err.println("French");
+			break;
+		case 3:
+			System.out.println("Spanish");
+			break;
 		default:
 			System.out.println("it not 1-3");
 		}
