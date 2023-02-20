@@ -20,20 +20,20 @@ public class Date {
 	}
 
 	public boolean checkDayMonthYear() {
-		int dayOfdMonth[] = {31, checkLeapYear()==true ? 29:28,31,30,31,30,31,31,30,31,30,31};
-		if (this.year <1 || this.month<1 || this.month >12 || this.day <1 || this.day > dayOfdMonth[month])
+		int dayOfdMonth[] = { 31, checkLeapYear() == true ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+		if (this.year < 1 || this.month < 1 || this.month > 12 || this.day < 1 || this.day > dayOfdMonth[month])
 			return false;
 		else {
 			return true;
 		}
 	}
+
 	public void inputt() {
-		Scanner input =new Scanner(System.in);
+		Scanner input = new Scanner(System.in);
 		System.out.println("input day month year:");
-		this.day=input.nextInt();
-		this.month=input.nextInt();
-		this.year=input.nextInt();
-		
-		
+		this.day = input.nextInt();
+		this.month = input.nextInt();
+		this.year = input.nextInt();
+
 	}
 }
