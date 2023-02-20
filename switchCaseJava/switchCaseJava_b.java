@@ -49,5 +49,6 @@ public class switchCaseJava_b {
 		default:
 			System.out.println("Poor");
 		}
+		System.out.println("bat ngo chua ba za");
 	}
 }
