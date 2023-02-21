@@ -20,7 +20,7 @@ public class Date {
 	}
 
 	public boolean checkDayMonthYear() {
-		int dayOfdMonth[] = { 31, checkLeapYear() == true ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
+		int dayOfdMonth[] = { 0, 31, checkLeapYear() == true ? 29 : 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 		if (this.year < 1 || this.month < 1 || this.month > 12 || this.day < 1 || this.day > dayOfdMonth[month])
 			return false;
 		else {

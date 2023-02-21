@@ -8,11 +8,11 @@ public class Ex1 {
 		double num2;
 		System.out.print("please input one integer and one folating-poit number: ");
 		Scanner inputScanner = new Scanner(System.in);
-		// System.out.print("integer:");
+//		 System.out.printf("\ninteger number: ");
 		num1 = inputScanner.nextInt();
-		// System.out.print("folat");
+//		 System.out.print("folat number: ");
 		num2 = inputScanner.nextDouble();
-		System.out.printf("Input values are %d and %.2f their product is %.2f \n ", num1, num2, num1 * num2);
+		System.out.printf("Input values are %d and %f their product is %f \n ", num1, num2, num1 * num2);
 	}
 
 }

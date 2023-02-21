@@ -7,9 +7,9 @@ public class switchCaseJavs_i {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
 		int day;
-		System.out.println("Input month: ");
+		System.out.print("Input month: ");
 		int month = input.nextInt();
-		System.out.println("inout year");
+		System.out.print("inout year: ");
 		int year = input.nextInt();
 		switch (month) {
 		case 2:
