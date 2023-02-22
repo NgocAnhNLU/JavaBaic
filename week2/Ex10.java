@@ -24,9 +24,10 @@ public class Ex10 {
 		if (d > 0 && d <= dayOfdMonth[m] && m >= 1 && m <= 12 && y > 0) {
 			realDay=true;
 		}
-		// cộng thêm 1 ngày nếu hết ngày thì qua tháng sau nếu hết tháng thì qua năm sau
+		// kiểm tra xem ngày tháng nhập vào có tồn taị?
 		if (realDay==true) {
 			System.out.printf("Sau ngày %d, Tháng %d, Năm %d Là:: ",d,m,y);
+			// cộng thêm 1 ngày nếu hết ngày thì qua tháng sau nếu hết tháng thì qua năm sau
 			d+=1;
 			if (d>dayOfdMonth[m]) {
 				d=1;

@@ -16,7 +16,7 @@ public class Ex4 {
 		c = input.nextInt();
 		// phương trình bậc 2 nếu a=0 thì bị hạ cấp xuống phương trình bậc nhất
 		if (a == 0)
-			giaiPTBac1(b, c);
+			simpleEquation(b, c);
 		// khi a!=0 thì mới tồn tại denta đê tính nghiệm PT bậc 2
 		else {
 			denta = Math.pow(b, 2) - (a * a * c);
@@ -33,7 +33,7 @@ public class Ex4 {
 	}
 
 	// hàm giải phương trình bậc nhất
-	public static void giaiPTBac1(int a, int b) {
+	public static void simpleEquation(int a, int b) {
 		if (a == 0 && b != 0)
 			System.out.printf("phương trình %dx+%d=0 vo nghiem", a, b);
 		if (a == 0 && b == 0)

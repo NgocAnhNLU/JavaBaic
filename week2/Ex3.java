@@ -10,10 +10,10 @@ public class Ex3 {
 		a = input.nextInt();
 		System.out.print("Input Number b: ");
 		b = input.nextInt();
-		giaiPTBac1(a, b);
+		simpleEquation(a, b);
 	}
 	// Hàm nhận 2 giá trị a,b và giải Phương trình bậc nhất
-	public static void giaiPTBac1(int a, int b) {
+	public static void simpleEquation(int a, int b) {
 		if (a == 0 && b != 0)
 			System.out.printf("phương trình %dx+%d=0 vô nghiệm", a, b);
 		if (a == 0 && b == 0)
