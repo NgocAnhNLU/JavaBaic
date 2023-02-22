@@ -3,9 +3,12 @@ package week2;
 import java.util.Scanner;
 
 public class Ex7 {
+// 	Cho 3 số a, b, c. Xét 3 số đó có là 3 cạnh của tam giác. Nếu đúng, thì kiểm tra tam giác đó
+// là tam giác gì? (đều, cân, vuông, vuông cân, thường).
 	public static void main(String[] args) {
 		double a, b, c;
-		int tamGiac = 0;// 0: tuong,1 deu, 2 can, 3 vuong, 4 vuong can
+		//  biến gán cho là: nếu ==0  là tam giác thường, ==1 là tam giác đều, ==2 TG cân, ==3 TG Vuông cân, ==4 Vuông 
+		int tamGiac = 0;
 		Scanner input = new Scanner(System.in);
 		System.out.print("Input Number a: ");
 		a = input.nextDouble();
@@ -13,17 +16,24 @@ public class Ex7 {
 		b = input.nextDouble();
 		System.out.print("Input Number c: ");
 		c = input.nextDouble();
+
+		// kiểm tra điều kiện có phải là tam giác
 		if (a + b > c && a + c > b && b + c > a) {
+			// kiểm tra có phải là tam giác đều
 			if (a == b && b == c)
 				tamGiac = 1;
+			// nếu không phải kiểm tra có phải cân
 			else if (a == b || b == c || c == a) {
-				tamGiac = 2;
-				if (a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b) {
-					tamGiac=3;
+					tamGiac = 2;
+					// đã là tam giác cân kiểm tra xem có phải tam giác vuông
+					if (a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b) {
+						tamGiac=3;
+					}
 				}
-			}
+			// kiểm tra có phải tam giác vuông mà không phải tam giác vuông cân hay không
 			if (a*a==b*b+c*c||b*b==a*a+c*c||c*c==a*a+b*b&&tamGiac!=3) 
 				tamGiac=4;
+			// ứng với từng giá trị đã gán in ra tam giác nhâp vào la tam giác gì:
 			switch (tamGiac) {
 			case 0:
 				System.out.printf("%f %f %f la tam giac thuong", a, b, c);
