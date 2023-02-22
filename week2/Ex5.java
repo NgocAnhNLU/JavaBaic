@@ -14,11 +14,20 @@ public class Ex5 {
 		a2 = input.nextInt();
 		System.out.print("Input b2: ");
 		b2 = input.nextInt();
+		if (a2 < a1) {
+			// trao đổi vị trí tên [a1,b1] vs [a2,b2] để nhỏ hơn về bên trái trục số
+			int temp = a2;
+			a2 = a1;
+			a1 = temp;
+			temp = b2;
+			b2 = b1;
+			b1 = temp;
+		}
 		// nút sau cuat đoạn 1 lớn hơn nút trước cuả đoạn 2
 		if (b1 > a2) {
 			giaour = b1 - a2;
 			union = b2 - a1;
-		// nút sau cuat đoạn 1 hơn hoặc nút trước cuả đoạn 2
+			// nút sau cuat đoạn 1 hơn hoặc nút trước cuả đoạn 2
 		} else {
 			giaour = 0;
 			union = b1 - a1 + b2 - a2;
