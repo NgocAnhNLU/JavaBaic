@@ -11,11 +11,11 @@ public class Ex1 {
 			System.out.print("Input a number(n=0 is Berak); ");
 			n = input.nextInt();
 			sum += n;
-//		tính số só đã nhập vào
+			// cộng dồn số chứ sỗ đã nhập vào.
 			avg += 1;
 			max = n > max ? n : max;
 		} while (n != 0);
-//		tính trung bình cộng
+		// tính trung bình cộng.
 		avg = sum / avg;
 		System.out.printf("Tổng: %d\n", sum);
 		System.out.printf("Trung bình cộng: %f\n", avg);
