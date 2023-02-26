@@ -3,6 +3,7 @@ package week3;
 import java.util.Scanner;
 
 public class Ex4 {
+    // hàm Thuật toán Euclid tìm Ucln
     public static int euGcd(int a,int b) {
         int temp;
         while (b!=0) {
@@ -20,9 +21,10 @@ public class Ex4 {
         System.out.print("Input number 2:");
         num2=input.nextInt();
         gcd =euGcd(num1, num2);
-        // lcm=(num1*num2)/gcd;
-        System.out.printf("hai so %d vs %d co UCCL la: %d\n",num1,num2,gcd);
-        // System.out.printf("hai so %d vs %d co BCNN la: %d",num1,num2,lcm);
+        //mối liên hệ Gcd vs Lcm
+        lcm=(num1*num2)/gcd;
+        System.out.printf("hai số %d với %d có UCCL là: %d\n",num1,num2,gcd);
+        System.out.printf("hai số %d với %d BCNN là: %d",num1,num2,lcm);
 
 
     }
