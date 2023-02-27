@@ -51,14 +51,12 @@ public class Ex5 {
 					// khi thực hiện 1 vòng lặp while thì cộng 1 số mũ cho i
 					exponent += 1;
 				}
-				// sau khi xong vòng lặp for (không thể chia tiếp cho 1 số i), ta in số i kèm
-				// với số mũ của i
+				// sau khi xong vòng lặp for (không thể chia tiếp cho 1 số i), ta in số i kèm với số mũ của i
 				System.out.printf("%d^%d.", i, exponent);
 				// reset số mũ về 0 trước khi thực hiện lại vòng lặp for lớn
 				exponent = 0;
 			}
 		}
-		// xoá ký tự 'x' sau khi hoàn hành vòng lặp for lớn bị thừa 1 "x"
 		// code in số nguyên tố bé hơn ước lẻ lớn nhất của n
 		System.out.printf("\ncác số nguyên tố < %d là: ", newN);
 		for (i = 1; i < newN; i++) {
