@@ -1,0 +1,12 @@
+	1	Viết chương trình tìm giá trị lớn nhất trong một mảng số nguyên.
+	2	Viết chương trình tính trung bình cộng các phần tử trong một mảng số thực.
+	3	Viết chương trình đảo ngược thứ tự các phần tử trong một mảng số nguyên.
+	4	Viết chương trình kiểm tra xem một mảng số nguyên có phải là một dãy tăng dần hay không.
+	5	Viết chương trình sắp xếp các phần tử trong một mảng số nguyên theo thứ tự tăng dần.
+	6	Viết chương trình tính tổng các số chẵn trong một mảng số nguyên.
+	7	Viết chương trình tìm phần tử lớn thứ hai trong một mảng số nguyên.
+	8	Viết chương trình xoá phần tử có giá trị xác định trong một mảng số nguyên.
+	9	Viết chương trình tìm số lần xuất hiện của một phần tử xác định trong một mảng số nguyên.
+	10	Viết chương trình tìm hai phần tử trong một mảng số nguyên có tổng bằng một số nguyên xác định.
+Continuity
+ContinuityContinuity
