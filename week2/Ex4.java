@@ -19,11 +19,11 @@ public class Ex4 {
 			simpleEquation(b, c);
 		// khi a!=0 thì mới tồn tại denta đê tính nghiệm PT bậc 2
 		else {
-			denta = Math.pow(b, 2) - (a * a * c);
+			denta = Math.pow(b, 2) - (4 * a * c);
 			if (denta < 0)
 				System.out.printf("phương trình %dx^2+%d+%d=0 vô nghiệm", a, b, c);
 			if (denta == 0)
-				System.out.printf("phương trình %dx^2+%d+%d=0 vô nghiệm kép tại: ", a, b, c, (double) -b / (2 * a));
+				System.out.printf("phương trình %dx^2+%d+%d=0 vô nghiệm kép tại: %f ", a, b, c, (double) -b / (2 * a));
 			if (denta > 0) {
 				x1 = (-b + Math.sqrt(denta)) / 2 * a;
 				x2 = (-b - Math.sqrt(denta)) / 2 * a;
