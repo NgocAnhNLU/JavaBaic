@@ -36,7 +36,7 @@ public class Ex6 {
 			System.out.printf("%f %f %f is a triangle\n" + "cperimeter:%f\n" + "area:%f\n" + "conrnerA:%f\n"
 					+ "conrnerB:%f\n" + "conrnerC:%f\n", a, b, c, cperimeter, area, A, B, C);
 		} else {
-			System.out.printf("%f %f %f is not triangle", a, b, c);
+			System.out.printf("%.2f %.2f %.2f is not triangle", a, b, c);
 		}
 	}
 }
