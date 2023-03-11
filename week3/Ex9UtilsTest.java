@@ -1,5 +1,7 @@
 package week3;
 
+import java.util.Scanner;
+
 public class Ex9UtilsTest {
 	public static void main(String[] args) {
 		Ex9 ex9 = new Ex9();

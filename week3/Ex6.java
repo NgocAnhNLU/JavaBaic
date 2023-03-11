@@ -5,8 +5,8 @@ public class Ex6 {
 		
         System.out.printf("    |   Sin   |   cos   |   Tang   |   Cotang |\n");
         for (int i = 0; i <= max; i += step) {
-            System.out.printf("%4d|%9.4f|%9.4f|%10.5f|%10.5f|\n", i, Math.sin(i), Math.cos(i), Math.tan(i),
-                    Math.pow(Math.tan(i), -1));
+            System.out.printf("%4d|%9.4f|%9.4f|%10.5f|%10.5f|\n", i, Math.sin(Math.toRadians(i)), Math.cos(Math.toRadians(i)), Math.tan(Math.toRadians(i)),
+                    Math.pow(Math.tan(Math.toRadians(i)), -1));
 
         }
     }
