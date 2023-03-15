@@ -188,7 +188,7 @@ public class Ex1 {
 				
 			}
 
-			}
 		}
 	}
+}
 	

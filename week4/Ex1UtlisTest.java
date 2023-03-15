@@ -1,7 +1,5 @@
 package week4;
 
-import java.util.Iterator;
-
 public class Ex1UtlisTest {
 	public static void main(String[] args) {
 		Ex1 ex1 =new Ex1();

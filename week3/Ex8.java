@@ -1,7 +1,5 @@
 package week3;
 
-import java.util.Scanner;
-
 public class Ex8 {
 	public int sumArr(int n) {
 		if (n > 0) {
@@ -11,7 +9,7 @@ public class Ex8 {
 			}
 			return sum;
 		} else {
-			System.out.println("<khong co tinh so am dc>");
+			System.out.println("<khong tinh so am dc>");
 			return 0;
 		}
 	}
@@ -23,11 +21,10 @@ public class Ex8 {
 				factnum *= i;
 			}
 			return factnum;
-		}
-		else {
-			System.out.println("<khong co tinh so am dc>");
+		} else {
+			System.out.println("<khong tinh so am dc>");
 			return 0;
-			
+
 		}
 	}
 }
