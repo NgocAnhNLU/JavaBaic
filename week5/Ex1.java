@@ -1,7 +1,7 @@
 package week5;
 
 import java.util.Iterator;
-
+// hàm tìm số lớn nhất trong ma trận
 public class Ex1 {
 	public static int maxNumInMatrix(int[][] arr) {
 		int max = arr[0][0];
@@ -12,7 +12,7 @@ public class Ex1 {
 		}
 		return max;
 	}
-
+// hàm tìm số nhỏ nhất trong ma trận
 	public static int minNumInMatrix(int[][] arr) {
 		int min = arr[0][0];
 		for (int[] is : arr) {
@@ -22,7 +22,7 @@ public class Ex1 {
 		}
 		return min;
 	}
-
+// tổng tất các các số trong ma trận
 	public static int sumNumInMatrix(int[][] matrix) {
 		int sum = 0;
 		for (int[] is : matrix) {
@@ -32,7 +32,7 @@ public class Ex1 {
 		}
 		return sum;
 	}
-
+// Hàm in ma trận
 	public void printMatrix(int[][] matrix) {
 		for (int[] is : matrix) {
 			System.out.print("|");

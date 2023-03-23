@@ -3,6 +3,7 @@ package week4;
 import java.util.Iterator;
 
 public class Ex8 {
+	// hàm tìm số lớn nhất trong ma trận
 	public static int maxNumInMatrix(int[][] arr) {
 		int max =arr[0][0];
 		for (int[] is : arr) {
@@ -12,6 +13,7 @@ public class Ex8 {
 		}
 		return max;
 	}
+	// hàm tìm số nhỏ nhất trong ma trận
 	public static int minNumInMatrix(int[][] arr) {
 		int min =arr[0][0];
 		for (int[] is : arr) {
@@ -21,6 +23,7 @@ public class Ex8 {
 		}
 		return min;
 	}
+	// hàm tính tổng tất cả các số trong ma trận
 	public static int sumNumInMatrix(int[][] matrix) {
 		int sum=0;
 		for (int[] is : matrix) {
@@ -30,6 +33,7 @@ public class Ex8 {
 		}
 		return sum;
 	}
+	// hàm in ma trận
 	public void printMatrix(int[][] matrix) {
 		for (int[] is : matrix) {
 			System.out.print("|");

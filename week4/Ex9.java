@@ -26,6 +26,7 @@ public class Ex9 {
 		}
 		return max;
 	}
+	// in ma trận
 	public void printMatrix(int[][] matrix) {
 		for (int[] is : matrix) {
 			System.out.print("|");

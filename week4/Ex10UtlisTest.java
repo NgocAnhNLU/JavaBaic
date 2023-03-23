@@ -1,6 +1,6 @@
 package week4;
 
-public class TestEx10 {
+public class Ex10UtlisTest {
     public static void main(String[] args) {
         // Khai báo và khởi tạo mảng 3 chiều chứa 5 ma trận
         int[][][] matrices = {

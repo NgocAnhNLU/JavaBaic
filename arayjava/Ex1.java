@@ -1,9 +1,6 @@
 package arayjava;
 
-import java.lang.reflect.Array;
-import java.util.Iterator;
 import java.util.Scanner;
-import java.util.function.BiConsumer;
 
 public class Ex1 {
 	public static void main(String[] args) {

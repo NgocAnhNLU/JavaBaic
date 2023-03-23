@@ -11,7 +11,7 @@ public class Ex6 {
 		}
 		return true;
 	}
-	// sapxep
+	// hàm sắp xếp chuỗi tăng dần
 		public static void arrangeToBeHigh(int[] arr){
 			for (int i = 0; i < arr.length; i++) {
 				for (int j = i+1; j < arr.length; j++) {
