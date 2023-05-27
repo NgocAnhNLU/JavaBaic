@@ -21,7 +21,7 @@ public class ex2 extends JFrame {
 		Button button_3 =new Button("3");
 		Button button_4 =new Button("4");
 		Button button_5 =new Button("5");
-		this.add(button_1,botherLayout.NORTH);
+		// this.add(button_1,botherLayout.NORTH);
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setVisible(true);
 	}

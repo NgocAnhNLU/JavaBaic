@@ -7,7 +7,7 @@ import java.awt.event.*;
 public class TrafficLightGUI extends JFrame {
 
     private JTextField messageField;
-    private JRadioButton redButton, yellowButton, greenButton;
+    private JRadioButton redButton, yellowButton  , greenButton;
 
     public TrafficLightGUI() {
 

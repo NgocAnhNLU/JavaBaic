@@ -35,23 +35,23 @@ public class ImageChooser extends JFrame {
         add(imagePanel, BorderLayout.CENTER);
 
         // Set the default image to display
-        imagePanel.add(new ImageIcon(image1.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
+        // imagePanel.add(new ImageIcon(image1.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
 
         // Add an action listener to the JComboBox to change the image displayed
         pictureComboBox.addActionListener(e -> {
             if (pictureComboBox.getSelectedItem().equals("hinh1")) {
                 imagePanel.removeAll();
-                imagePanel.add(temporaryLostComponent, new ImageIcon(image1.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
+                // imagePanel.add(temporaryLostComponent, new ImageIcon(image1.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
                 imagePanel.revalidate();
                 imagePanel.repaint();
             } else if (pictureComboBox.getSelectedItem().equals("hinh2")) {
                 imagePanel.removeAll();
-                imagePanel.add(new ImageIcon(image2.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
+                // imagePanel.add(new ImageIcon(image2.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
                 imagePanel.revalidate();
                 imagePanel.repaint();
             } else if (pictureComboBox.getSelectedItem().equals("hinh3")) {
                 imagePanel.removeAll();
-                imagePanel.add(new ImageIcon(image3.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
+                // imagePanel.add(new ImageIcon(image3.getImage().getScaledInstance(250, 250, Image.SCALE_SMOOTH)));
                 imagePanel.revalidate();
                 imagePanel.repaint();
             }
