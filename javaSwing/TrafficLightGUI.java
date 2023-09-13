@@ -5,10 +5,6 @@ import java.awt.*;
 import java.awt.event.*;
 
 public class TrafficLightGUI extends JFrame {
-
-    private JTextField messageField;
-    private JRadioButton redButton, yellowButton  , greenButton;
-
     public TrafficLightGUI() {
 
         // Set up the frame
